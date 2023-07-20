@@ -9,7 +9,7 @@ const Section1 = () => {
   }
 
   return (
-    <section className="bg-default-gray text-white" id="1">
+    <section className="bg-default-gray text-white px-1" id="1">
       <Wrapper>
         <div className="flex flex-col">
           <h2 className="mt-[50px] flex flex-col text-center justify-center font-roboto">

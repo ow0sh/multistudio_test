@@ -15,3 +15,11 @@
 *::-webkit-scrollbar-thumb {
   @apply rounded-md bg-green-500;
 }
+
+html {
+  @apply overflow-x-hidden;
+}
+
+body {
+  @apply overflow-x-hidden;
+}

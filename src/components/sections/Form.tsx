@@ -39,7 +39,7 @@ const Form = () => {
             <span>Не упусти свой шанс</span>
             <span className="text-green-500">Только 50 мест!</span>
           </h1>
-          <div className="flex flex-col w-[480px] h-[500px] border-2 border-green-500 mx-auto p-10">
+          <div className="flex flex-col w-[300px] md:w-[480px] h-[500px] border-2 border-green-500 mx-auto p-10">
             <h1 className="text-[26px] text-center mb-[100px]">
               Мы работаем продуктивно
             </h1>

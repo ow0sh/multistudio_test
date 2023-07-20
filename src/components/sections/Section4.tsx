@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const Section4 = () => {
   return (
-    <section className="mt-10 bg-gray-100 py-[50px]" id={'4'}>
+    <section className="mt-10 bg-gray-100 py-[50px] px-2" id={'4'}>
       <Wrapper>
         <div className="flex flex-col">
           <h1 className="text-[30px] font-bold mx-auto">
@@ -35,7 +35,7 @@ interface Props {
 const Comment: FC<Props> = ({ text, srcimg, human }) => {
   return (
     <div className="flex flex-col mx-auto mt-[30px]">
-      <h1 className="text-[18px] w-[500px]">
+      <h1 className="text-[18px] w-[300px] md:w-[500px]">
         <span className="text-xl text-green-500">”</span>
         {text}
       </h1>

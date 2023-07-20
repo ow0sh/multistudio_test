@@ -62,7 +62,7 @@ const Column: FC<Props> = ({ children, left }) => {
     return (
       <div className="flex justify-between px-10">
         <div className="flex flex-col order-1 w-[400px]">{children}</div>
-        <div className="flex order-2 w-[400px]">
+        <div className="hidden md:flex order-2 w-[400px]">
           <Image src={'/woman.png'} width={400} height={450} alt="" />
         </div>
       </div>
@@ -71,7 +71,7 @@ const Column: FC<Props> = ({ children, left }) => {
     return (
       <div className="flex justify-between mt-10 px-10">
         <div className="flex flex-col order-2 w-[400px]">{children}</div>
-        <div className="flex order-1 w-[400px]">
+        <div className="order-1 w-[400px] hidden md:flex">
           <Image src={'/man.png'} width={400} height={450} alt="" />
         </div>
       </div>
